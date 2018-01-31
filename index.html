@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title> Assignment 1 </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="phone.css">
+  </head>
+  <body>
+    <p>Please choose a tab.</p>
+
+    <div id="tab_bar">
+      <button id="Dialer"> Dialer </button>
+      <button id="contact_list"> Contact List </button>
+      <button id="add_contact"> Add Contact </button>
+    </div>
+
+    <div id="content">
+      <div id="content_dialer">
+        <form> Dialer <br> <br>
+          <input type="number" name="phone_number_entry"><br><br>
+        </form>
+
+        <button id="one"> 1 </button> <button id="two"> 2 </button> <button id="three"> 3 </button> <br>
+        <button id="four"> 4 </button> <button id="five"> 5 </button> <button id="six"> 6 </button> <br>
+        <button id="seven"> 7 </button> <button id="eight"> 8 </button> <button id="nine"> 9 </button> <br>
+        <button id="pound"> # </button> <button id="zero"> 0 </button> <button id="star"> * </button> <br><br>
+        <button id="Dial"> Dial </button> <button id="Clear_Dial">Clear</button>
+
+     </div>
+      <div id="content_list"> <div id="ContactListTitle" > Contact List <br> <br> </div>
+        <div id="Contact1">John Doe </div>
+        <div id="Contact2"> Tia Basak </div>
+        <div id="Contact3"> Santa Clause </div><br><br>
+        <div id="Contact4"> Jackie Chan </div>
+        <div id="Contact5">Jane Doe </div>
+      </div>
+      <div id="content_addcontact">
+        <form> <div id="Add_Contact_Title"> Add Contact <br><br> </div>
+          Name:<br>
+          <input type="text" name="firstname"><br><br>
+          Phone Number:<br>
+          <input type="text" name="phonenumber"><br><br>
+          Email Address:<br>
+          <input type = "text" name ="emailaddress"><br><br>
+
+          <button id="submit_contact"> Add </button>
+          <button id="clear_contact"> Clear </button>
+        </form>
+
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="phone.js"></script>
+  </body>
+</html>
