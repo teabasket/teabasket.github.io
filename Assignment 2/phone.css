@@ -1,0 +1,50 @@
+/*utton { width: 20px; height: 20px; background: green; color: white; margin: 10px; }*/
+#Dialer {display: inline-block; background: #ADBCCB;color: white; font-weight: bold;}
+#contact_list {display: inline-block; background: #ADBCCB; color: white; font-weight: bold;}
+#add_contact {display: inline-block; background: #ADBCCB; color: white; font-weight: bold;}
+#test_gestures {display: inline-block; background: #ADBCCB; color: white; font-weight: bold;}
+
+#Contact1 {
+    display: inline-block; padding: 0 25px; height: 50px; font-size: 16px;  line-height: 50px; border-radius: 25px; background-color: #CCF9D0;
+}
+
+#Contact2 {
+    display: inline-block; padding: 0 25px; height: 50px; font-size: 16px;  line-height: 50px; border-radius: 25px; background-color: #CCF9D0;
+}
+
+#Contact3 {
+    display: inline-block; padding: 0 25px; height: 50px; font-size: 16px;  line-height: 50px; border-radius: 25px; background-color: #CCF9D0;
+}
+#Contact4 {
+    display: inline-block; padding: 0 25px; height: 50px; font-size: 16px;  line-height: 50px; border-radius: 25px; background-color: #CCF9D0;
+}
+#Contact5 {
+    display: inline-block; padding: 0 25px; height: 50px; font-size: 16px;  line-height: 50px; border-radius: 25px; background-color: #CCF9D0;
+}
+
+#content_dialer{
+  font-weight: bold; font-size: 20px;
+}
+
+
+#one{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#two{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#three{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#four{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#five{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#six{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#seven{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#eight{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#nine{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#zero{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#pound{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+#star{background: #E4E0E0; width: 100px; height: 50px; color: black;}
+
+#Dial{background: #E4E0E0; width: 150px; height: 40px; color: black;}
+#Clear_Dial{background: #E4E0E0; width: 150px; height: 40px; color: black;}
+
+#Add_Contact_Title{font-weight: bold; font-size: 20px;}
+#ContactListTitle{font-weight: bold; font-size: 20px;}
+#Test_Gestures_Title{font-weight: bold; font-size: 20px;}
+
+#gesture_area{width: 300px; height: 300px; background-color: #bfbfbf; margin: 30px; border-radius: 10px; border: 10px; border-color: black;}
