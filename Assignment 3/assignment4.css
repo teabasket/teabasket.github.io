@@ -1,0 +1,14 @@
+
+body{background-color: #405865}
+#head{background-color: #000000}
+
+#picture{width: 300px; height: 300px; margin-left: 450px;}
+h1{margin-left: 500px; color: #FFFFFF;}
+
+#MenuItems{margin-left: 100px; color: #FFFFFF}
+h3{margin-left: 100px; color: #FFFFFF;}
+h5{margin-left: 100px; color: #FFFFFF;}
+#blog1{margin-left: 100px; margin-right: 100px;color: #FFFFFF;}
+#commentstitle{margin-left: 100px; margin-right: 100px;color: #FFFFFF;}
+#commentsInput{margin-left: 100px; margin-bottom: 100px}
+#TriggerMenu{color: #CCCCCC}
