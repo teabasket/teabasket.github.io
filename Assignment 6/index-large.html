@@ -1,18 +1,19 @@
 <html>
   <head>
-    <title> Phone Application </title>
+    <title>Phone Application </title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="phone-large.css">
   </head>
   <body>
     <p>Please choose a tab.</p>
-    <a id="Low_Visibility" href="https://teabasket.github.io/Assignment%206/index-large.html"> Low Visibility Accessibility </a>
+    <a id="Back_to_normal" href="https://teabasket.github.io/Assignment%202/index.html"> <div id="Back2Norm"> Normal Visibility </div></a>
 
     <div id="tab_bar">
       <button id="Dialer"> Dialer </button>
       <button id="contact_list"> Contact List </button>
       <button id="add_contact"> Add Contact </button>
       <button id="test_gestures"> Test Gestures </button>
+      <button id="About_Tab">About </button>
     </div>
 
     <div id="content">
@@ -36,13 +37,13 @@
         <div id="Contact5">Jane Doe </div>
       </div>
       <div id="content_addcontact">
-        <form> <div id="Add_Contact_Title"> Add Contact <br><br> </div>
-          Name:<br>
-          <input type="text" name="firstname"><br><br>
-          Phone Number:<br>
-          <input type="text" name="phonenumber"><br><br>
-          Email Address:<br>
-          <input type = "text" name ="emailaddress"><br><br>
+        <form id="Add_Info"> <div id="Add_Contact_Title"> Add Contact <br><br> </div>
+          <div id="Name_Form"> Name:</div> <br>
+          <input type="text" id="firstname"><br><br>
+          <div id="PhoneNum_Form">Phone Number:</div><br>
+          <input type="text" id="phonenumber"><br><br>
+          <div id="Email_Form">Email Address:</div><br>
+          <input type = "text" id="emailaddress"><br><br>
 
           <button id="submit_contact"> Add </button>
           <button id="clear_contact"> Clear </button>
@@ -50,15 +51,27 @@
       </div>
       <div id="content_gestures">
         <form type= "text" id="gesture_output"> <div id="Test_Gestures_Title"> Test Gestures <br> <br> </div>
-          Gesture Type:<br>
+          <div id="Gesture_form">Gesture Type:</div><br>
           <input type = "text" id="gesture_type"><br><br>
         </form>
         <div id="gesture_area">  </div>
       </div>
     </div>
 
+    <div id="content_about">
+      <p id="about_Paragraph"> It is important when designing any website that the content is visible to all people.
+        This means that making the website accesible to people with low visibility. To make this
+        application more accesible I have made a couple changes. For example I have made every component
+        on the application a little bigger. The user with low visibility will be able to easily see it. I
+        have also changed some of the colors from the original application, so that it follows WebAIM criteria
+        properly. All of these combined make the application more available and comformtable for people with
+        low visibility. </p>
+
+      </div>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="phone.js"></script>
+    <script src="phone-large.js"></script>
   </body>
 </html>

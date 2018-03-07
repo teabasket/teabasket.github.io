@@ -1,0 +1,70 @@
+/*utton { width: 20px; height: 20px; background: green; color: white; margin: 10px; }*/
+#Dialer {display: inline-block; background: #405865;color: white; font-weight: bold; width: 200px; height: 50px; font-size: 40px;}
+#contact_list {display: inline-block; background: #405865;color: white; font-weight: bold; width: 200px; height: 50px; font-size: 40px;}
+#add_contact {display: inline-block; background: #405865;color: white; font-weight: bold; width: 200px; height: 50px; font-size: 40px;}
+#test_gestures {display: inline-block; background: #405865;color: white; font-weight: bold; width: 200px; height: 50px; font-size: 40px;}
+#About_Tab{display: inline-block; background: #405865;color: white; font-weight: bold; width: 200px; height: 50px; font-size: 40px;}
+
+#Contact1 {
+    display: inline-block; padding: 0 50px; height: 100px; font-size: 64px;  line-height: 100px; border-radius: 50px; background-color: #CCF9D0;
+}
+
+#Contact2 {
+    display: inline-block; padding: 0 50px; height: 100px; font-size: 64px;  line-height: 100px; border-radius: 50px; background-color: #CCF9D0;
+}
+
+#Contact3 {
+    display: inline-block; padding: 0 50px; height: 100px; font-size: 64px;  line-height: 100px; border-radius: 50px; background-color: #CCF9D0;
+}
+#Contact4 {
+    display: inline-block; padding: 0 50px; height: 100px; font-size: 64px;  line-height: 100px; border-radius: 50px; background-color: #CCF9D0;
+}
+#Contact5 {
+    display: inline-block; padding: 0 50px; height: 100px; font-size: 64px;  line-height: 100px; border-radius: 50px; background-color: #CCF9D0;
+}
+
+#content_dialer{
+  font-weight: bold; font-size: 40px;
+}
+
+
+#one{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#two{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#three{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#four{background: #E4E0E0; width: 200px; height: 100px; color: black;font-size: 64px}
+#five{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#six{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#seven{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#eight{background: #E4E0E0; width: 200px; height: 100px; color: black;font-size: 64px}
+#nine{background: #E4E0E0; width: 200px; height: 100px; color: black;font-size: 64px}
+#zero{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#pound{background: #E4E0E0; width: 200px; height: 100px; color: black; font-size: 64px}
+#star{background: #E4E0E0; width: 200px; height: 100px; color: black;font-size: 64px}
+
+#Dial{background: #E4E0E0; width: 300px; height: 80px; color: black; font-size: 64px}
+#Clear_Dial{background: #E4E0E0; width: 300px; height: 80px; color: black; font-size: 64px}
+
+#Add_Contact_Title{font-weight: bold; font-size: 40px;}
+#ContactListTitle{font-weight: bold; font-size: 40px;}
+#Test_Gestures_Title{font-weight: bold; font-size: 40px;}
+
+#Name_Form{font-size: 40px; font-weight: bold;}
+#PhoneNum_Form{font-size: 40px; font-weight: bold;}
+#Email_Form{font-size: 40px; font-weight: bold;}
+#firstname{width: 50%; height: 10%}
+#phonenumber{width: 50%; height: 10%}
+#emailaddress{width: 50%; height: 10%}
+#submit_contact{background: #E4E0E0; width: 200px; height: 60px; color: black; font-size: 40px}
+#clear_contact{background: #E4E0E0; width: 200px; height: 60px; color: black; font-size: 40px}
+#Add_Info{font-size: 40px;}
+
+
+#gesture_area{width: 600px; height: 600px; background-color: #bfbfbf; margin: 30px; border-radius: 10px; border: 10px; border-color: black;}
+#Gesture_form{font-size: 40px; font-weight: bold; font-style: normal;}
+#gesture_type{width: 50%; height: 10%}
+#gesture_output{font-size: 40px; }
+
+#content_about{background: #405865;}
+#about_Paragraph{color: white; font-size: 40px;}
+
+#Back2Norm{font-size: 40px; color: black;}
